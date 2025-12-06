@@ -1,0 +1,46 @@
+<section class="p-5 bg-transparent shadow-md hidden md:block">
+  <div class="flex flex-row justify-around items-center">
+    <div>
+      <h1 class="font-bold">BrandLogo</h1>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <div>
+      <nav>
+        <ul>
+          <li>Home</li>
+        </ul>
+      </nav>
+    </div>
+
+    <div>
+      <button class="px-4 py-2 bg-lime-500 text-white rounded-xl shadow-md">Sign In</button>
+    </div>
+  </div>
+</section>
+
+<section>
+  <!-- Mobile Navigation (Bottom) -->
+  <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200">
+    <nav class="flex justify-around items-center py-3">
+      <ul class="flex space-x-8 items-center">
+        <!-- <li>
+          <a href="#" class="text-blue-500 font-medium">Home</a>
+        </li>
+
+        <li>
+          <button class="px-4 py-2 bg-lime-500 text-white rounded-xl shadow-md" (click)="signin()">Sign In</button>
+        </li> -->
+        <!-- <li>
+          <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+
+        </li> -->
+        <!-- <li><span class="material-symbols-outlined"> library_add </span></li> -->
+         <li routerLink="">Home</li>
+         <li routerLink="track">Data tracker</li>
+         <!-- <li routerLink=""></li>
+         <li routerLink=""></li> -->
+      </ul>
+    </nav>
+  </div>
+</section>
