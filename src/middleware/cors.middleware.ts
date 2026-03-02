@@ -3,6 +3,7 @@ import { Request, Response, NextFunction } from 'express';
 const allowedOrigins = [
   'http://localhost:4200',
   'https://mb.pavanoriginals.in',
+  'https://www.mbcareersolutions.in',
 //   'https://yourdomain.com',
 ];
 
