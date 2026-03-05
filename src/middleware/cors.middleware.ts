@@ -4,6 +4,7 @@ const allowedOrigins = [
   'http://localhost:4200',
   'https://mb.pavanoriginals.in',
   'https://www.mbcareersolutions.in',
+  'https://dashboard.mbcareersolutions.in'
 //   'https://yourdomain.com',
 ];
 
